@@ -1,0 +1,101 @@
+.form{
+    display: flex;
+    position: absolute;
+    bottom: 106px;
+    top: 601px;
+    left: 15%;
+    right: 15%;
+    height: 308px;
+}
+
+.total{
+    width: 1144px;
+    height: 308px;
+    position: absolute;
+
+}
+.send{
+    position: absolute;
+    right: 10%;
+    height: 315px;
+    width: 120px;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    font-family: Montserrat;
+    font-size: 36px;
+    padding: 0 0 0 0;
+    font-weight: 100;
+    right: 0px;
+    transition: all 300ms;
+}
+
+.send p{
+    margin: 0 0 0 0;
+}
+
+.send:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.send:active{
+    opacity: 75%;
+}
+
+
+.full-name{
+    width: 40%;
+    height: 80px;
+    position: absolute;
+    left: 0px;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    font-family: Montserrat;
+    font-size: 36px;
+}
+
+.full-name::placeholder{
+    padding-left: 15px;
+    
+}
+
+.email{
+    width: 500px;
+    height: 80px;
+    position: absolute;
+    right: 0px;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    font-family: Montserrat;
+    font-size: 36px;
+}
+
+.email::placeholder{
+    padding-left: 15px;
+}
+
+.message{
+    width: 1136px;
+    height: 198px;
+    position: absolute;
+    top: 110px;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    font-family: Montserrat;
+    font-size: 36px;
+    
+}
+
+.message::placeholder{
+    padding-left: 15px;
+    padding-top: 15px;
+}

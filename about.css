@@ -36,7 +36,7 @@
 
     border: 2px solid #FFFFFF;
     border-radius: 20px;
-    background-image: url(picture/MOI2LEREOTU.jpg);
+    background-image: url(Picture/MOI2LEREOTU.jpg);
     background-size: 100%;
 
 }
@@ -144,7 +144,7 @@
 
 }
 .arrow:hover{
-    content: url(picture/triangle\ hd\ hover.png);
+    content: url(Picture/triangle-hd-hover.png);
 }
 
 .arrow:active{

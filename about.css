@@ -4,13 +4,14 @@
     right: 0px;
     width: 470px;
     height: 959px;
+    max-width: 100%;
 
 }
 
 .about-text{
     position: absolute;
     width: 339px;
-    height: 172px;
+    min-height: 172px;
     left: 70px;
     top: 42px;
     z-index: 4;
@@ -37,14 +38,10 @@
     border: 2px solid #FFFFFF;
     border-radius: 20px;
     background-image: url(Picture/MOI2LEREOTU.jpg);
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
-}
-
-.pp{
-    width: 467.250px;
-    height: 618px;
-    border-radius: 20px;
 }
 
 .texte-cv{
@@ -74,7 +71,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 100;
-    font-size: 36px;
+    font-size: 2.5vw;
     line-height: 153.8%;
     display: flex;
     align-items: center;
@@ -107,7 +104,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 100;
-    font-size: 52px;
+    
     line-height: 130%;
 
     display: flex;
@@ -115,6 +112,8 @@
     
 
     color: #FFFFFF;
+
+
 }
 
 .paragraph-cv{
@@ -123,7 +122,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 100;
-    font-size: 36px;
+    
     line-height: 130%;
 
     margin:40px 10px 0 15px;
@@ -141,6 +140,7 @@
     width: 84px;
     height: 63px;
     transition: all 100ms;
+    max-width: 100%;
 
 }
 .arrow:hover{
@@ -154,9 +154,54 @@
 .triangle{
     width: 84px;
     height: 63px;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1200px){
+    .title-cv{
+        font-size: 40px;
+    }
+    .paragraph-cv{
+        font-size: 31.8px;
+    }
+    .resume{
+        font-size: 32px;
+    }
+    
+}
+
+
+@media screen and (min-width: 1201px) and (max-width: 1529px){
+    .title-cv{
+        font-size: 3.6vw;
+    }
+    .paragraph-cv{
+        font-size: 2.5vw;
+    }
+    
+}
+
+@media screen and (min-width: 1530px){
+        .title-cv{
+            font-size: 56px;
+        }
+        .paragraph-cv{
+            font-size: 36px;
+        }
+        .resume{
+            font-size: 37px;
+        }
+        
 }
 
 
 
+@media screen and (max-width:1200px){
+    .planet-2{
+        right: -20px;
+    }
 
-
+    .arrow{
+        right: 50px;
+    }
+}

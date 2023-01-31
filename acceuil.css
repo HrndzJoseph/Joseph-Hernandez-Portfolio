@@ -20,6 +20,7 @@
     border: none;
     transition: opacity 100ms;
     text-decoration: none;
+    
 }
 
 .about-button:hover{
@@ -134,4 +135,23 @@
     color: black;
     cursor: pointer;
     opacity: 75%;
+}
+
+@media screen and (max-width:1200px){
+    .about-button{
+        left: 326px;
+
+    }
+    .project-button{
+        left: 352px;
+
+    }
+    .contact-button{
+        left: 326px;
+
+    }
+    .FR-button{
+        left: 181px;
+
+    }
 }

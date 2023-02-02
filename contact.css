@@ -156,3 +156,10 @@
     bottom: 0;
     height: 108px;
 }
+
+.moon{
+    position: absolute;
+    top: -12%;
+    right: -67px;
+    height: 169px;
+}

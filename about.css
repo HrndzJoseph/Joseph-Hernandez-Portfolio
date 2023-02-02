@@ -26,6 +26,24 @@
     margin: 0 0 0 0;
 }
 
+.about-text-fr{
+    position: absolute;
+    width: 500px;
+    min-height: 172px;
+    left: 70px;
+    top: 42px;
+    z-index: 4;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 112px;
+    line-height: 153.8%;
+    display: flex;
+    align-items: center;
+    color: #FEFEFE;
+    margin: 0 0 0 0;
+}
+
 .photo{
     box-sizing: border-box;
 
@@ -133,6 +151,24 @@
 
 }
 
+.paragraph-cv-fr{
+    
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    
+    line-height: 130%;
+
+    margin:40px 10px 0 15px;
+
+    display: flex;
+
+    color: #FFFFFF;
+
+}
+
+
 .arrow{
     position: absolute;
     right: 70px;
@@ -164,6 +200,11 @@
     .paragraph-cv{
         font-size: 31.8px;
     }
+
+    .paragraph-cv-fr{
+        font-size: 30px;
+    }
+
     .resume{
         font-size: 32px;
     }
@@ -178,6 +219,10 @@
     .paragraph-cv{
         font-size: 2.5vw;
     }
+
+    .paragraph-cv-fr{
+        font-size: 2.5vw;
+    }
     
 }
 
@@ -186,6 +231,10 @@
             font-size: 56px;
         }
         .paragraph-cv{
+            font-size: 36px;
+        }
+
+        .paragraph-cv-fr{
             font-size: 36px;
         }
         .resume{

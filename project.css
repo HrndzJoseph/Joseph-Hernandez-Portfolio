@@ -143,6 +143,18 @@
     color: #FFFFFF;
 }
 
+.web-descri-fr{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2.3vw;
+    line-height: 130%;
+    margin-left: 10px;
+    margin: 20px 10px 0 20px;
+
+    color: #FFFFFF;
+}
+
 .game-pic{
     position: absolute;
     height: 130px;
@@ -151,6 +163,26 @@
 }
 
 .mfg{
+    height: 110px;
+    margin-left: 180px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 30px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 3vw;
+    line-height: 153.8%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+
+.mfg-fr{
     height: 110px;
     margin-left: 180px;
     margin-top: 30px;
@@ -187,6 +219,24 @@
     color: #FFFFFF;
 } 
 
+.mfg-descri-fr{
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 22.54px;
+    line-height: 153.8%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
 .more-game{
     
     font-family: 'Montserrat';
@@ -215,7 +265,9 @@
     .web-descri{
         font-size: 28px;
     }
-    
+    .web-descri-fr{
+        font-size: 29px;
+    }
 }
 
 @media screen and (min-width: 1709px){
@@ -225,15 +277,25 @@
     .web-descri{
         font-size: 34px;
     }
-    
+    .web-descri-fr{
+        font-size: 32px;
+    }
 }
 
 @media screen and (min-width: 1365px) and (max-width: 1861px){
     .mfg{
         font-size: 2.5vw;
     }
+
+    .mfg-fr{
+        font-size: 2.4vw;
+    }
     .mfg-descri{
         font-size: 1.6vw;
+    }
+
+    .mfg-descri-fr{
+        font-size: 1.5vw;
     }
     
 }
@@ -242,8 +304,15 @@
     .mfg{
         font-size: 45px;
     }
+    .mfg-fr{
+        font-size: 45px;
+    }
     .mfg-descri{
         font-size: 30px;
+    }
+
+    .mfg-descri-fr{
+        font-size: 28px;
     }
 }
 
@@ -273,11 +342,18 @@
         font-size: 30px;
     }
 
+    .web-descri-fr{
+        font-size: 30px;
+    }
+
     .mfg{
         font-size: 50px;
     }
     .mfg-descri{
         font-size: 25px;
+    }
+    .mfg-descri-fr{
+        font-size: 23px;
     }
 
     .more{
@@ -292,4 +368,14 @@
         top:3500px
     }
 
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1376px){
+    .mfg-fr{
+        font-size: 29px;
+
+    }
+    .web-descri-fr{
+        font-size: 28px;
+    }
 }

@@ -55,7 +55,7 @@
 
     border: 2px solid #FFFFFF;
     border-radius: 20px;
-    background-image: url(Picture/MOI2LEREOTU.jpg);
+    background-image: url(/Picture/MOI2LEREOTU.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -180,7 +180,7 @@
 
 }
 .arrow:hover{
-    content: url(Picture/triangle-hd-hover.png);
+    content: url(/Picture/triangle-hd-hover.png);
 }
 
 .arrow:active{

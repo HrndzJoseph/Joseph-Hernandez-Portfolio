@@ -1,0 +1,170 @@
+body{
+    background: linear-gradient(90deg, #2D2D2D 0%, #171515 100%);
+    position: relative;
+    font-family: Montserrat, arial;
+    min-height: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+
+}
+
+html{
+    height: 100%;
+}
+
+.main{
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    height: 90%;
+    width: 90%;
+    right: 5%;
+    left: 5%;
+
+}
+.title{
+    
+    position: absolute;
+    height: 15%;
+    width: 100%;
+}
+.pro{
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    left: 0px;
+}
+.pro-text{
+    position: absolute;
+    height: fit-content;
+    width: 100%;
+    font-weight: 200;
+    font-size: 5vw;
+    color: white;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.cross-button{
+    position: absolute;
+    font-weight: 200;
+    font-size: 69px;
+    color: white;
+    text-decoration: none;
+    right: 0px;
+    height: 100%;
+}
+
+.cross {
+    position: absolute;
+    width: 20%;
+    right: 0px;
+    height: 100%;
+}
+
+
+
+.project{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 20%;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 20%;
+    left: 0px;
+    height: 100%;
+
+}
+
+
+
+.button {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 25%;
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 6px;
+    bottom: 0px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.8vw;
+    font-weight: 200;
+}
+
+
+
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+.column2{
+    position: absolute;
+    min-width: 75%;
+    right: 0px;
+    left: 25%;
+    height: 100%;
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+    overflow-y: scroll;
+
+}
+
+.descri, p{
+    color: white;
+    position: relative;
+    font-size: 2.8vw;
+}
+.descri2{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    min-width: fit-content;
+    min-height: 80%;
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+.title-web{
+    font-size: 5vw;
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin: 0 0 0 0;
+    font-weight: 200;
+}
+
+.more-info{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right: 5px;
+    font-weight: 100;
+
+}
+
+.more-info:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.img-descri{
+    width: 10%;
+
+}
+
+
+
+
+

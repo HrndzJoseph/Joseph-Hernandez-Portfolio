@@ -168,6 +168,11 @@
 
 }
 
+.github-more{
+    padding: 0 0 0 0;
+    
+}
+
 
 .arrow{
     position: absolute;
@@ -198,11 +203,11 @@
         font-size: 40px;
     }
     .paragraph-cv{
-        font-size: 31.8px;
+        font-size: 19px;
     }
 
     .paragraph-cv-fr{
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .resume{
@@ -214,28 +219,28 @@
 
 @media screen and (min-width: 1201px) and (max-width: 1529px){
     .title-cv{
-        font-size: 3.6vw;
+        font-size: 3.4vw;
     }
     .paragraph-cv{
-        font-size: 2.5vw;
+        font-size: 1.6vw;
     }
 
     .paragraph-cv-fr{
-        font-size: 2.1vw;
+        font-size: 1.6vw;
     }
     
 }
 
 @media screen and (min-width: 1530px){
         .title-cv{
-            font-size: 56px;
+            font-size: 53px;
         }
         .paragraph-cv{
-            font-size: 36px;
+            font-size: 25px;
         }
 
         .paragraph-cv-fr{
-            font-size: 33px;
+            font-size: 24px;
         }
         .resume{
             font-size: 37px;
